@@ -1,0 +1,13 @@
+{
+    "name": "ag-develop/interfaces",
+    "description": "Basic interfaces catalog",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AgDevelop\\Interface\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
