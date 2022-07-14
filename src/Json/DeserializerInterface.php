@@ -4,7 +4,7 @@ namespace AgDevelop\Interface\Json;
 
 interface DeserializerInterface
 {
-    public function deserialize();
+    public function deserialize(): self;
 
     public function getObject(): object;
 
