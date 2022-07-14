@@ -1,6 +1,6 @@
 <?php
 
-namespace AgDevelop\Interface\Json;
+namespace AgDevelop\Interface\Logger;
 
 use Psr\Log\LoggerInterface;
 
