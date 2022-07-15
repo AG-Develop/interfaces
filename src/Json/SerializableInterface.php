@@ -2,7 +2,9 @@
 
 namespace AgDevelop\Interface\Json;
 
-interface SerializableInterface extends \JsonSerializable
+use JsonSerializable;
+
+interface SerializableInterface extends JsonSerializable
 {
 
 }
