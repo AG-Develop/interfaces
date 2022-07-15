@@ -8,4 +8,6 @@ interface DeserializerInterface
 
     public function getObject(): object;
 
+    public function getEnvelope(): EnvelopeInterface;
+
 }
