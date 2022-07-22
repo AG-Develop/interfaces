@@ -2,7 +2,9 @@
 
 namespace AgDevelop\Interface\Json;
 
+use stdClass;
+
 interface DeserializerBuilderInterface
 {
-    public function build(string $json): DeserializerInterface;
+    public function build(array|string|stdClass $json): DeserializerInterface;
 }
